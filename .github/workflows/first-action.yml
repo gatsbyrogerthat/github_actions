@@ -5,7 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: print greeting
-      run: echo "hello bfsi"
+      run: |
+          echo "hello bfsi"
+          echo "First output"
+          echo "Second output"
     - name: print goodbye
       run: echo "bye, bfsi!"
     
